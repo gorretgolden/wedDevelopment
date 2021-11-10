@@ -20,7 +20,7 @@
 
 <!--personal image -->
   <div style="margin-top:10px;margin-left:20px;display:flex;flex-direction:col">
-  <img src="" alt="personal image"/>
+ 
   <!--<h1><small> NABATANZI GORRET</h1></small></b> -->
   </diV>
   <!--float left-->
@@ -55,10 +55,10 @@
           <div style="margin-left:30px;display:flex;flex-direction:column;justify-content:space-around;width:200px">
            <h3>Contact Form</h3>
             <input placeholder="Enter your name" type="text"/><br/>
-              <input placeholder="Enter phone number" type="number"/><br/>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your phone number" ><br/>
               <input placeholder="Enter your email" type="email"/><br/>
-              <input placeholder="Reason" type="text"/><br/>
-            <button style="color:green"  type="submit">Send</button>
+              <input placeholder="Reason" type="text"/><br/><br/>
+            <button style="color:white;background-color: #4CAF50;"  type="submit">Send</button>
            
           </diV>
         
@@ -75,8 +75,9 @@
             <diV style="margin:20px">
             <Form>
             <label>Type a note:</label>
-            <input/>
+            <input type="text" style="height:80px"/>
             <br/>
+             <br/>
              <br/>
             <button style="color:green" type='submit' >Send</button>
             </Form>
